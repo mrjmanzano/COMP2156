@@ -1,25 +1,16 @@
 language: node_js
 node_js:
-<<<<<<< HEAD
-  - "14"  # Use the latest LTS version of Node.js
+  - "14"  # Or your preferred Node.js version
+
+before_install:
+  - npm cache clean --force  # Clean npm cache before install
+
+install:
+  - npm install  # Use npm install instead of npm ci if there are lockfile issues
+
+script:
+  - npm test  # Or your test command
 
 cache:
   directories:
-    - $HOME/.npm
-
-before_install:
-  - npm install -g npm@latest
-  - rm -rf node_modules package-lock.json
-  - npm install
-
-# Optional: To specify the npm version to use:
-npm:
-  - "latest"
-
-# Optional: Run specific scripts after installation
-install:
-  - npm install
-  - npm test  # Or other commands you want to run after install
-=======
-  - "14"
->>>>>>> 0056a2f681037479cfacd9721afc5cb578903f53
+    - node_modules  # Cache node_modules directory to speed up builds
