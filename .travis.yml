@@ -3,6 +3,15 @@ node_js:
 <<<<<<< HEAD
   - "14"  # Use the latest LTS version of Node.js
 
+cache:
+  directories:
+    - $HOME/.npm
+
+before_install:
+  - npm install -g npm@latest
+  - rm -rf node_modules package-lock.json
+  - npm install
+
 # Optional: To specify the npm version to use:
 npm:
   - "latest"
