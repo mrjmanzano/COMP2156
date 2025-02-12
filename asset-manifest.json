@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/COMP2156/static/css/main.27ca76a1.css",
-    "main.js": "/github.io/COMP2156/static/js/main.1280b31a.js",
-    "static/js/453.f27d8bf6.chunk.js": "/github.io/COMP2156/static/js/453.f27d8bf6.chunk.js",
-    "index.html": "/github.io/COMP2156/index.html",
-    "main.27ca76a1.css.map": "/github.io/COMP2156/static/css/main.27ca76a1.css.map",
-    "main.1280b31a.js.map": "/github.io/COMP2156/static/js/main.1280b31a.js.map",
-    "453.f27d8bf6.chunk.js.map": "/github.io/COMP2156/static/js/453.f27d8bf6.chunk.js.map"
+    "main.css": "/COMP2156/static/css/main.27ca76a1.css",
+    "main.js": "/COMP2156/static/js/main.e836995f.js",
+    "static/js/453.f27d8bf6.chunk.js": "/COMP2156/static/js/453.f27d8bf6.chunk.js",
+    "index.html": "/COMP2156/index.html",
+    "main.27ca76a1.css.map": "/COMP2156/static/css/main.27ca76a1.css.map",
+    "main.e836995f.js.map": "/COMP2156/static/js/main.e836995f.js.map",
+    "453.f27d8bf6.chunk.js.map": "/COMP2156/static/js/453.f27d8bf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27ca76a1.css",
-    "static/js/main.1280b31a.js"
+    "static/js/main.e836995f.js"
   ]
 }
