@@ -1,1 +1,12 @@
 language: node_js
+node_js:
+  - "14"  # Use the latest LTS version of Node.js
+
+# Optional: To specify the npm version to use:
+npm:
+  - "latest"
+
+# Optional: Run specific scripts after installation
+install:
+  - npm install
+  - npm test  # Or other commands you want to run after install
