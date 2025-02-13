@@ -3,8 +3,9 @@ node_js:
   - "14"  # Or your preferred Node.js version
 
 before_install:
+  - npm install -g npm@latest
   - npm cache clean --force  # Clean npm cache before install
-
+  - npm install -g jake
 install:
   - npm install  # Use npm install instead of npm ci if there are lockfile issues
 
